@@ -1,4 +1,4 @@
-## Test on Windows
+## Test on Windows Sever 2016
 
 ### 70K Files + 70K Symlinks
 
@@ -12,7 +12,7 @@
 |:---|---:|---:|---:|---:|
 | `cargo run -r` | 8.094 ± 0.774 | 7.686 | 10.261 | 1.00 |
 
-## Test on Ubuntu
+## Test on Linux Ubuntu 20.4
 
 ### 70K Files + 70K Symlinks
 
@@ -25,3 +25,4 @@
 | Command | Mean [ms] | Min [ms] | Max [ms] | Relative |
 |:---|---:|---:|---:|---:|
 | `cargo run -r` | 671.7 ± 4.1 | 665.9 | 678.0 | 1.00 |
+
